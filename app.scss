@@ -1,4 +1,13 @@
 //
+//  Variables
+//
+$background: #29142E;
+$line: #802852;
+$button: #CF7557;
+
+
+
+//
 //  Reset
 //
 html {
@@ -17,5 +26,58 @@ body {
 }
 
 body {
+  position: relative;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
   margin: 0;
+
+  background: $background;
+}
+
+
+//
+//  Content container
+//
+.container {
+  //...
+}
+
+
+//
+//  SVG element
+//
+svg {
+  border-radius: 1rem;
+
+  line {
+    stroke: $line;
+    stroke-linecap: round;
+  }
+}
+
+
+
+//
+//  Controls
+//
+.ui-controls {
+  position: fixed;
+  top: 2vw;
+  right: 2vw;
+
+  button {
+    margin: 0.25rem;
+    padding: .5rem 1rem;
+
+    font-size: 3vw;
+    line-height: 1;
+    font-weight: bold;
+
+    background: $button;
+    border: 0;
+    border-radius: 1rem;
+  }
 }

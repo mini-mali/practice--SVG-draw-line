@@ -3,11 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>_____TITLE____</title>
+    <title>Change SVG line length using JS</title>
     <link rel="stylesheet" href="./app.scss">
 </head>
 <body>
-    <h1>____ITS_ALIVE____</h1>
+    <div class="container">
+
+        <svg
+            width="400"
+            height="200">
+
+            <line
+                x1="0"
+                y1="100"
+                x2="100"
+                y2="100"
+                stroke="green"
+                stroke-width="16"
+                />
+        </svg>
+
+    </div><!-- /container -->
+
+
+    <div class="ui-controls">
+        <button class="plus">PLUS</button>
+        <button class="minus">MINUS</button>
+    </div><!-- /ui-controls -->
 
 
     <script src="./app.js"></script>
