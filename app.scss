@@ -47,6 +47,7 @@ svg {
 
   line {
     stroke: $line;
+    stroke-width: 16;
     stroke-linecap: round;
   }
 }
