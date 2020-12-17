@@ -4,7 +4,7 @@ let plus = document.querySelector('.plus'),
     minus = document.querySelector('.minus'),
     svg = document.querySelector('svg'),
     line = svg.querySelector('line'),
-    x2 = line.getAttribute('x2');
+    x2 = parseInt( line.getAttribute('x2') );
 
 
 plus.onclick = (e) => {
